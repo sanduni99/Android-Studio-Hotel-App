@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">Room_information</string>
+
+    <string-array name="type">
+        <item>Select Room</item>
+        <item>Single Bed Room</item>
+        <item>Double Bed Room</item>
+        <item>Delux Bed Room</item>
+        <item>Super Delux Bed Room</item>
+         
+    </string-array>
+
+</resources>

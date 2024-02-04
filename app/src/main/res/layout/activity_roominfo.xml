@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoominfoActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#9C27B0"
+        android:text="Room Information"
+
+        />
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/type"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="Please Enter Number of Room"
+        />
+
+
+    <EditText
+        android:id="@+id/edCheckin"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Please Select Checkin Date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        />
+    <EditText
+        android:id="@+id/edCheckout"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Checking Date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Preview"
+/>
+
+</LinearLayout>
